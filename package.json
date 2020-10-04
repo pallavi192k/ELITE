@@ -1,7 +1,7 @@
 {
-  "name": "bubbles",
+  "name": "ELITE",
   "version": "1.0.0",
-  "description": "## Bubbles : The Anti-Social Media App",
+  "description": "## ELITE : The Anti-Social Media App",
   "main": "server.js",
   "engines": {
     "node": "10.3.0"
@@ -12,20 +12,11 @@
     "start": "node server.js",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aliciaC1/bubbles.git"
-  },
+  
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/aliciaC1/bubbles/issues"
-  },
-  "homepage": "https://github.com/aliciaC1/bubbles#readme",
+  
   "dependencies": {
     "body-parser": "^1.18.3",
     "cloudinary": "^1.13.2",
